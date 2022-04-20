@@ -1,0 +1,462 @@
+
+<html lang = "en">
+<head>
+    <meta charset = "UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name = "viewport" content="widtn=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/a772954f2e.js" crossorigin="anonymous"></script>
+    </script>
+    <link rel="stylesheet" href="css/gym.css">
+    <link rel="icon" type="image/x-icon" href="img/favicon-32x32.PNG">
+
+    <title>Welcome to Nutrimoon</title>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+
+
+</head>
+<body>
+
+
+
+
+
+
+
+
+<div class="header-background">
+    <div id="nav" class="sticky-nav">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">
+                    <img src="photo/852963.jpg" width="242px" height="42px" alt="" loading="lazy">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="recipes.html">Recipes</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Fitness
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="gym.html">Gym</a></li>
+                                <li><a class="dropdown-item" href="is.html">Indoor sports</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Types of Diet</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="calorietable.html">Food Calorie Table</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="home.html">Recommendations</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Contacts
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="https://t.me/one_jiffy" target="_blank">Aizhan</a></li>
+                                <li><a class="dropdown-item" href="https://t.me/losted0" target="_blank">Asylai</a></li>
+                                <li><a class="dropdown-item" href="#">Madi</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+<script>
+    function beginner(){
+        document.getElementById('gif1')
+            .src="stp.gif";
+        document.getElementById('run')
+            .innerHTML="Seated barbell press";
+        document.getElementById('so')
+            .innerHTML="Sit on the bench holding a barbell in front of your shoulders with an overhand grip.This exercise is a safer alternative for beginners to the military press behind your neck, which can lead to a painful injury called shoulder impingement syndrome. Sitting down also takes the strain of your lower back, making this one of the safest ways to build bigger shoulders. Press the weight up above your head until your arms are fully extended. Return slowly to the start position.";
+
+        document.getElementById('gif2')
+            .src="ir.gif";
+        document.getElementById('run-1')
+            .innerHTML="Inverted rows";
+        document.getElementById('so1')
+            .innerHTML="Set up a bar in a rack at waist height. Hold it at shoulder-width, with an underhand grip, and hang underneath. Position yourself with heels out in front of you and arms fully extended. Your body should be straight from shoulders to ankles. Flex at the elbows to pull your chest up to the bar. Lower yourself back to the start position under control.";
+
+        document.getElementById('gif3')
+            .src="sr.gif";
+        document.getElementById('run-2')
+            .innerHTML="Seated row";
+        document.getElementById('so2')
+            .innerHTML="Sit in front of a pulley column and set your feet firmly at its base. Grab the handle and, with your arms extended, lean back until your torso is at a 90-degree angle from your legs. Now, keeping the torso stationary, pull the handles back towards your chest, squeezing your back muscles hard.By only allowing you to work in one plane of movement these fixed resistance machines are foolproof and removing the risk of hurting yourself.";
+
+        document.getElementById('gif4')
+            .src="fp.gif";
+        document.getElementById('run-3')
+            .innerHTML="Face pulls";
+        document.getElementById('so3')
+            .innerHTML="Stand opposite a high pulley column with the handle attached at eye level. Grab it and exhale as you pull the weight directly towards your face, focusing on bringing your shoulder blades together. For perfect form, ensure your upper arms are parallel to the ground.Pecs look good but the muscles you use in day-to-day life, and on the sports field, are in your back. This moves hit right down the middle can easily be modified with a wider grip handle to work your lats.";
+
+        document.getElementById('gif5')
+            .src="fr.gif";
+        document.getElementById('run-4')
+            .innerHTML="Weighted ab curl";
+        document.getElementById('so4')
+            .innerHTML="You might think sit-ups would be standard six-pack far, but when it comes to crunches the temptation to slump back to the floor during every rep means you’re only getting half the benefit. Holding onto the cable keeps your core under tension for both phases of the movement to build more muscle around your middle.";
+    }
+
+    function advanced(){
+        document.getElementById('gif1')
+            .src="q.gif";
+        document.getElementById('run')
+            .innerHTML="Deadbug";
+        document.getElementById('so')
+            .innerHTML="a) Lie on your back with your arms skywards and legs raised and bent at 90 degrees.<br> b) Slowly lower your arms behind you, as you extend your left leg out in front.<br> c) Exhale, then gently return to the starting position and repeat, this time extending the right leg. Lower the weight if your back arches off the floor. Do 10 reps per leg.<br>";
+
+        document.getElementById('gif2')
+            .src="w.gif";
+        document.getElementById('run-1')
+            .innerHTML="Barbell hip bridge";
+        document.getElementById('so1')
+            .innerHTML="a) Sit on the floor with a bench behind you and a weighted barbell over your legs. Roll the bar so it’s directly over your hips and lean back so your shoulder blades rest on the bench.<br> b) Drive through your feet, pushing up your hips (shoulders and feet supporting you). Squeezing your glutes, extend as high as possible. Hold for 5 secs then slowly lower. Do 20 reps.<br>";
+
+        document.getElementById('gif3')
+            .src="e.gif";
+        document.getElementById('run-2')
+            .innerHTML="Dumbbell lunge";
+        document.getElementById('so2')
+            .innerHTML=" a) Stand holding a dumbbell in each hand.<br> b) Step forwards into a lunge on your left leg. Hold for a beat.<br>c) Push off your left leg to return to the starting position and repeat. Do 10 reps per leg.<br>";
+
+        document.getElementById('gif4')
+            .src="r.gif";
+        document.getElementById('run-3')
+            .innerHTML="Renegade row";
+        document.getElementById('so3')
+            .innerHTML=" a) With a dumbbell in each hand, start in a plank position, keeping your pelvis as stable as possible.<br>b) Row your right arm back without twisting your shoulders, keeping your elbows tucked in to engage your lats.<br>c) End with your wrist by your hip, then lower the dumbbell back to the floor.<br>d) Repeat on the other side, then do a press-up. That's one rep. Do 10 reps total.<br>";
+
+        document.getElementById('gif5')
+            .src="tt.gif";
+        document.getElementById('run-4')
+            .innerHTML="Floor dumbbell Russian twist";
+        document.getElementById('so4')
+            .innerHTML=" a) Sit on the floor with your ankles together. Hold a dumbbell with both hands. Twist your arms to one side, clasping the dumbbell firmly.<br>b) Hold the dumbbell so you are nearly touching the floor. Embrace your core and do the same on the other side. Do 10 reps.<br>";
+    }
+</script>
+
+
+<audio id="myAudio">
+
+    <source src="button-19.mp3" type="audio/mpeg">
+
+</audio>
+<script>
+    var x = document.getElementById("myAudio");
+
+    function playAudio() {
+        x.play();
+    }
+
+</script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+    $(document).ready(function(){
+        $(".button-17").click(function(){
+            $("#so").slideToggle();
+        });
+    });
+</script>
+
+<div class="thing">
+    <h7 class="PIE">Define your physical activity level</h7>
+    <p class="PIE1">The physical activity level (PAL) is a way to express a person's daily physical activity as a number, and is used to estimate a person's total energy expenditure. In combination with the basal metabolic rate, it can be used to compute the amount of food energy a person needs to consume in order to maintain a particular lifestyle.</p>
+    <button class="button-25"  role="button" onclick=beginner();>Beginner</button>
+
+    <button class="button-26"  role="button" onclick=advanced();>Advanced</button>
+
+</div>
+
+
+
+
+<div class="container" style= "margin-bottom:120px; margin-top:40px;">
+    <div class="row" >
+        <div class="col-lg-6 col-md-12 col-sm-12" style= " margin-left: -50px; ">
+
+            <iframe  id= "gif1" width="500" height="360" src="photo/q.gif">
+            </iframe>
+
+        </div>
+        <div class="col-lg-6 col-md-12 col-sm-12" style= " margin-top: 30px;" >
+            <h1 id="run"><span> Deadbug</span></h1>
+            <p id="so">
+                a) Lie on your back with your arms skywards and legs raised and bent at 90 degrees.<br>
+
+                b) Slowly lower your arms behind you, as you extend your left leg out in front.<br>
+
+                c) Exhale, then gently return to the starting position and repeat, this time extending
+                the right leg. Lower the weight if your back arches off the floor. Do 10 reps per leg.<br>
+            </p>
+            <button class="button-17" onclick="playAudio()" role="button">Hide Description</button>
+        </div>
+    </div>
+</div>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+    $(document).ready(function(){
+        $(".button-18").click(function(){
+            $("#so1").slideToggle();
+        });
+    });
+</script>
+
+
+
+
+<div class="container" style= "margin-bottom:120px; margin-top:40px;">
+
+    <div class="row">
+        <div class="col-lg-6 col-md-12 col-sm-12" style= " margin-left: -50px; ">
+
+            <iframe  id= "gif2" width="500" height="360" src="photo/w.gif">
+            </iframe>
+
+        </div>
+        <div class="col-lg-6 col-md-12 col-sm-12"  style= " margin-top: 30px;" >
+            <h1 id="run-1"><span>Barbell hip bridge</span></h1>
+            <p id="so1">
+                a) Sit on the floor with a bench behind you and a weighted barbell over your legs. Roll the bar so it’s directly over your hips and lean back so your shoulder blades rest on the bench.<br>
+                b) Drive through your feet, pushing up your hips (shoulders and feet supporting you). Squeezing your glutes, extend as high as possible. Hold for 5 secs then slowly lower. Do 20 reps.<br>
+            </p>
+            <button class="button-18" onclick="playAudio()" role="button">Hide Description</button>
+        </div>
+    </div></div>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+    $(document).ready(function(){
+        $(".button-19").click(function(){
+            $("#so2").slideToggle();
+        });
+    });
+</script>
+</div>
+
+<div class="container" style= "margin-bottom:120px; margin-top:40px;">
+
+    <div class="row">
+        <div class="col-lg-6 col-md-12 col-sm-12" style= " margin-left: -50px; ">
+
+            <iframe  id= "gif3" width="500" height="360" src="photo/e.gif">
+            </iframe>
+
+        </div>
+        <div class="col-lg-6 col-md-12 col-sm-12"   style= " margin-top: 30px;">
+            <h1 id="run-2"><span>Dumbbell lunge </span></h1>
+            <p id="so2">
+                a) Stand holding a dumbbell in each hand.<br>
+                b) Step forwards into a lunge on your left leg. Hold for a beat.<br>
+                c) Push off your left leg to return to the starting position and repeat. Do 10 reps per leg.<br>
+            </p>
+            <button class="button-19" onclick="playAudio()" role="button">Hide Description</button>
+        </div>
+    </div></div>
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+    $(document).ready(function(){
+        $(".button-20").click(function(){
+            $("#so3").slideToggle();
+        });
+    });
+</script>
+
+<div class="container" style= "margin-bottom:120px; margin-top:40px;">
+
+    <div class="row">
+        <div class="col-lg-6 col-md-12 col-sm-12" style= "margin-left: -50px; ">
+
+            <iframe  id= "gif4" width="500" height="360" src="photo/r.gif">
+            </iframe>
+
+        </div>
+        <div class="col-lg-6 col-md-12 col-sm-12"  style= " margin-top: 30px;">
+            <h1 id="run-3"><span> Renegade row</span></h1>
+            <p id="so3">
+                a) With a dumbbell in each hand, start in a plank position, keeping your pelvis as stable as possible.<br>
+                b) Row your right arm back without twisting your shoulders, keeping your elbows tucked in to engage your lats.<br>
+                c) End with your wrist by your hip, then lower the dumbbell back to the floor.<br>
+                d) Repeat on the other side, then do a press-up. That's one rep. Do 10 reps total.<br>
+            </p>
+            <button class="button-20" onclick="playAudio()" role="button">Hide Description</button>
+        </div>
+    </div></div>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+    $(document).ready(function(){
+        $(".button-17").click(function(){
+            $("#so4").slideToggle();
+        });
+    });
+</script>
+<div class="container" style= "margin-bottom:120px; margin-top:40px;">
+
+    <div class="row">
+        <div class="col-lg-6 col-md-12 col-sm-12" style= " margin-left: -50px; ">
+
+            <iframe id= "gif5" width="500" height="360" src="photo/tt.gif">
+            </iframe>
+
+        </div>
+        <div class="col-lg-6 col-md-12 col-sm-12"  style= " margin-top: 30px;">
+            <h1 id="run-4"><span> Floor dumbbell Russian twist</span></h1>
+            <p id="so4">
+                a) Sit on the floor with your ankles together. Hold a dumbbell with both hands. Twist your arms
+                to one side, clasping the dumbbell firmly.<br>
+                b) Hold the dumbbell so you are nearly touching the floor. Embrace your core
+                and do the same on the other side. Do 10 reps.<br>
+            </p>
+            <button class="button-17" onclick="playAudio()" role="button">Hide Description</button>
+        </div>
+
+
+    </div>
+
+</div>
+
+
+
+
+
+
+<footer class="text-center text-lg-start bg-light text-muted">
+    <div class="footer">
+        <section class="">
+            <div class="container text-center text-md-start mt-5">
+                <!-- Grid row -->
+                <div class="row mt-3">
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                        <!-- Content -->
+                        <h6 class="text-uppercase fw-bold mb-4">
+                            <i class="fas fal fa-hand-holding-heart me-3"></i>Nutrimoon
+                        </h6>
+                        <p>
+                            We are what we eat
+                        </p>
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                        <!-- Links -->
+                        <h6 class="text-uppercase fw-bold mb-4">
+                            Menu
+                        </h6>
+                        <p>
+                            <a href="recipes.html" class="text-reset">Recipes</a>
+                        </p>
+                        <p>
+                            <a href="calorietable.htm" class="text-reset">Food Calorie Table</a>
+                        </p>
+                        <p>
+                            <a href="home.html" class="text-reset">Recommendations</a>
+                        </p>
+
+                    </div>
+
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                        <!-- Links -->
+                        <h6 class="text-uppercase fw-bold mb-4">
+                            Useful links
+                        </h6>
+
+                        <p>
+                            <a href="https://t.me/one_jiffy" target="_blank" class="text-reset">Social media</a>
+                        </p>
+                        <p>
+                            <a href="https://t.me/losted0" class="text-reset">Contacts</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">Help</a>
+                        </p>
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                        <!-- Links -->
+                        <h6 class="text-uppercase fw-bold mb-4">
+                            Contact
+                        </h6>
+                        <p><i class="fas fa-home me-3"></i> Astana, 020000 KZ</p>
+                        <p>
+                            <i class="fas fa-envelope me-3"></i>
+                            astanait@mail.ru
+                        </p>
+                        <p><i class="fas fa-phone me-3"></i> +7 777 324 37 85</p>
+                        <p><i class="fas fa-print me-3"></i> +7 777 777 56 89</p>
+                    </div>
+                    <!-- Grid column -->
+                </div>
+                <!-- Grid row -->
+            </div>
+        </section>
+        <!-- Section: Links  -->
+
+        <!-- Copyright -->
+        <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+            © 2021 Copyright:
+            <a class="text-reset fw-bold" href="#">Nutrimoon.com</a>
+        </div>
+        <!-- Copyright -->
+    </div>
+</footer>
+
+
+
+
+
+
+
+
+</body>
+</html>
